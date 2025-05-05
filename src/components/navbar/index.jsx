@@ -35,7 +35,7 @@ const Navbar = () => {
                <button className='bg-transparent  h-[38px] w-[38px]  rounded-[100%]  flex items-center justify-center transition-[0.2s] hover:bg-[#424242]'><RiVideoAddFill  style={{ color: 'white', fontSize: '20px' }} /></button>
                <button className='bg-transparent  h-[38px] w-[38px]  rounded-[100%]  flex items-center justify-center transition-[0.2s] hover:bg-[#424242]'> <BsFillGrid3X3GapFill  style={{ color: 'white', fontSize: '20px' }}/></button>
               <button className='bg-transparent  h-[38px] w-[38px]  rounded-[100%]  flex items-center justify-center transition-[0.2s] hover:bg-[#424242]'> <BsBell  style={{ color: 'white', fontSize: '20px' }} /></button>
-              {auth?<button onClick={()=>{navigate("/login")}}><img src={opa} alt="" className='w-5 rounded-full'/></button>:<button onClick={()=>{navigate("/login")}}><FaRegUserCircle style={{fontSize:"25px",color:'white'}} /></button>}
+              {auth?<button onClick={()=>{navigate("/login")}}><img src={opa} alt="" className='w-10'/></button>:<button onClick={()=>{navigate("/login")}}><FaRegUserCircle style={{fontSize:"25px",color:'white'}} /></button>}
               
             </div>
         </div>    
